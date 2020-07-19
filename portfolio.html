@@ -46,7 +46,7 @@
                 <!--временно вставила иконку как img-->
                 <img
                   class="header-adress-icon"
-                  src="./images/header-icons/envelope-hover.svg"
+                  src="./images/header-icons/envelope.svg"
                   width="16"
                   height="11"
                   lang="en"
@@ -76,7 +76,7 @@
       </div>
     </header>
 
-    <main>
+    <main class="portfolio">
       <!--HERO секция-->
       <section class="hero-portfolio">
         <div class="container">
@@ -93,19 +93,25 @@
           </h2>
           <ul class="portfolio-filters-list list">
             <li class="portfolio-filters-list-item">
-              <button class="modal-btn" type="button">Все</button>
+              <button class="portfolio-modal-btn" type="button">Все</button>
             </li>
             <li class="portfolio-filters-list-item">
-              <button class="modal-btn" type="button">Веб-сайты</button>
+              <button class="portfolio-modal-btn" type="button">
+                Веб-сайты
+              </button>
             </li>
             <li class="portfolio-filters-list-item">
-              <button class="modal-btn" type="button">Приложения</button>
+              <button class="portfolio-modal-btn" type="button">
+                Приложения
+              </button>
             </li>
             <li class="portfolio-filters-list-item">
-              <button class="modal-btn" type="button">Дизайн</button>
+              <button class="portfolio-modal-btn" type="button">Дизайн</button>
             </li>
             <li class="portfolio-filters-list-item">
-              <button class="modal-btn" type="button">Маркетинг</button>
+              <button class="portfolio-modal-btn" type="button">
+                Маркетинг
+              </button>
             </li>
           </ul>
         </div>
@@ -119,341 +125,278 @@
           <ul class="portfolio-projects-list list">
             <li class="portfolio-projects-list-item">
               <a
-                class="portfolio-projects-list link"
+                class="portfolio-projects-list-link link"
                 href=""
                 aria-label="Ссылка на проект Технокряк"
               >
-                <ul class="portfolio-projects-list-item-name list">
-                  <li class="projects-name-img">
-                    <img
-                      src="./images/portfolio/tehnokryak.jpg"
-                      alt="главная страница сайта проекта технокряк"
-                      width="370"
-                      height="287"
-                    />
-                  </li>
-                  <li class="portfolio-projects-list-item-name-item">
-                    <h3 class="projects-name-subtitle">Технокряк</h3>
-                  </li>
-                  <li class="portfolio-projects-list-item-name-item">
-                    <p class="projects-name-class">
-                      Веб-сайт
-                    </p>
-                  </li>
-                  <li class="portfolio-projects-list-item-name-item">
-                    <p class="projects-name-description">
-                      Технокряк это современная площадка распространения
-                      коронавируса. Компании используют эту платформу для
-                      цифрового шпионажа и атак на защищённые сервера
-                      конкурентов.
-                    </p>
-                  </li>
-                </ul>
+                <img
+                  class="portfolio-projects-list-link-item-img"
+                  src="./images/portfolio/tehnokryak.jpg"
+                  alt="главная страница сайта проекта технокряк"
+                  width="370"
+                  height="294"
+                />
+                <div class="portfolio-projects-list-link-item">
+                  <h3 class="projects-name-subtitle">Технокряк</h3>
+
+                  <p class="projects-name-class">
+                    Веб-сайт
+                  </p>
+                </div>
+                <p class="projects-name-description">
+                  Технокряк это современная площадка распространения
+                  коронавируса. Компании используют эту платформу для цифрового
+                  шпионажа и атак на защищённые сервера конкурентов.
+                </p>
               </a>
             </li>
 
             <li class="portfolio-projects-list-item">
               <a
-                class="portfolio-projects-list link"
+                class="portfolio-projects-list-link link"
                 href=""
                 aria-label="Ссылка на постер нью орлеан против голден стар"
               >
-                <ul class="portfolio-projects-list-item-name list">
-                  <li class="projects-name-img">
-                    <img
-                      src="./images/portfolio/new-orlean.jpg"
-                      alt=" борьба за мяч между двумя баскетболистами команд нью орлеан и голден стар"
-                      width="370"
-                      height="287"
-                    />
-                  </li>
-                  <li class="portfolio-projects-list-item-name-item">
-                    <h3 class="projects-name-subtitle">
-                      Постер <span lang="en"> New Orlean vs Golden Star</span>
-                    </h3>
-                  </li>
-                  <li class="portfolio-projects-list-item-name-item">
-                    <p class="projects-name-class">
-                      Дизайн
-                    </p>
-                  </li>
+                <img
+                  class="portfolio-projects-list-link-item-img"
+                  src="./images/portfolio/new-orlean.jpg"
+                  alt=" борьба за мяч между двумя баскетболистами команд нью орлеан и голден стар"
+                  width="370"
+                  height="294"
+                />
+                <div class="portfolio-projects-list-link-item">
+                  <h3 class="projects-name-subtitle">
+                    Постер <span lang="en"> New Orlean vs Golden Star</span>
+                  </h3>
 
-                  <li class="portfolio-projects-list-item-name-item">
-                    <p class="projects-name-description">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Sit voluptas repudiandae culpa aperiam saepe ea, maiores
-                      obcaecati autem nisi maxime deleniti totam voluptatum
-                      delectus alias? Impedit facilis amet in nobis.
-                    </p>
-                  </li>
-                </ul>
+                  <p class="projects-name-class">
+                    Дизайн
+                  </p>
+                </div>
+                <p class="projects-name-description">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit
+                  voluptas repudiandae culpa aperiam saepe ea, maiores obcaecati
+                  autem nisi maxime deleniti totam voluptatum delectus alias?
+                  Impedit facilis amet in nobis.
+                </p>
               </a>
             </li>
 
             <li class="portfolio-projects-list-item">
               <a
-                class="portfolio-projects-list link"
+                class="portfolio-projects-list-link link"
                 href=""
                 aria-label="Ссылка на приложение ресторана сиифуд"
               >
-                <ul class="portfolio-projects-list-item-name list">
-                  <li class="projects-name-img">
-                    <img
-                      src="./images/portfolio/seafood.jpg"
-                      alt="главная страница сайта проекта технокряк"
-                      width="370"
-                      height="287"
-                    />
-                  </li>
-                  <li class="portfolio-projects-list-item-name-item">
-                    <h3 class="projects-name-subtitle">
-                      Ресторан <span lang="en">Seafood</span>
-                    </h3>
-                  </li>
-                  <li class="portfolio-projects-list-item-name-item">
-                    <p class="projects-name-class">
-                      Приложение
-                    </p>
-                  </li>
+                <img
+                  class="portfolio-projects-list-link-item-img"
+                  src="./images/portfolio/seafood.jpg"
+                  alt="главная страница сайта проекта технокряк"
+                  width="370"
+                  height="294"
+                />
+                <div class="portfolio-projects-list-link-item">
+                  <h3 class="projects-name-subtitle">
+                    Ресторан <span lang="en">Seafood</span>
+                  </h3>
 
-                  <li class="portfolio-projects-list-item-name-item">
-                    <p class="projects-name-description">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Exercitationem aliquam expedita eaque eius cum maxime, rem
-                      consequuntur nostrum ipsa voluptates explicabo ut illum
-                      doloremque dolorum ipsum veniam, animi autem nulla.
-                    </p>
-                  </li>
-                </ul>
+                  <p class="projects-name-class">
+                    Приложение
+                  </p>
+                </div>
+                <p class="projects-name-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Exercitationem aliquam expedita eaque eius cum maxime, rem
+                  consequuntur nostrum ipsa voluptates explicabo ut illum
+                  doloremque dolorum ipsum veniam, animi autem nulla.
+                </p>
               </a>
             </li>
 
             <li class="portfolio-projects-list-item">
               <a
-                class="portfolio-projects-list link"
+                class="portfolio-projects-list-link link"
                 href=""
                 aria-label="Ссылка на проект прайм"
               >
-                <ul class="portfolio-projects-list-item-name list">
-                  <li class="projects-name-img">
-                    <img
-                      src="./images/portfolio/prime.jpg"
-                      alt="беспроводные внешние наушники черного цвета"
-                      width="370"
-                      height="287"
-                    />
-                  </li>
-                  <li class="portfolio-projects-list-item-name-item">
-                    <h3 class="projects-name-subtitle">
-                      Проект <span lang="en">Prime</span>
-                    </h3>
-                  </li>
-                  <li class="portfolio-projects-list-item-name-item">
-                    <p class="projects-name-class">
-                      Маркетинг
-                    </p>
-                  </li>
+                <img
+                  class="portfolio-projects-list-link-item-img"
+                  src="./images/portfolio/prime.jpg"
+                  alt="беспроводные внешние наушники черного цвета"
+                  width="370"
+                  height="294"
+                />
+                <div class="portfolio-projects-list-link-item">
+                  <h3 class="projects-name-subtitle">
+                    Проект <span lang="en">Prime</span>
+                  </h3>
 
-                  <li class="portfolio-projects-list-item-name-item">
-                    <p class="projects-name-description">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Aliquid unde optio facere. Voluptate, quas optio
-                      consequuntur temporibus perspiciatis, iure ab itaque
-                      pariatur reprehenderit assumenda illum ratione dolore,
-                      quam laboriosam earum?.
-                    </p>
-                  </li>
-                </ul>
+                  <p class="projects-name-class">
+                    Маркетинг
+                  </p>
+                </div>
+
+                <p class="projects-name-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid unde optio facere. Voluptate, quas optio consequuntur
+                  temporibus perspiciatis, iure ab itaque pariatur reprehenderit
+                  assumenda illum ratione dolore, quam laboriosam earum?.
+                </p>
               </a>
             </li>
 
             <li class="portfolio-projects-list-item">
               <a
-                class="portfolio-projects-list link"
+                class="portfolio-projects-list-link link"
                 href=""
                 aria-label="Ссылка на проект боксиз"
               >
-                <ul class="portfolio-projects-list-item-name list">
-                  <li class="projects-name-img">
-                    <img
-                      src="./images/portfolio/boxes.jpg"
-                      alt="две коробки: одна белая, другая коричневая"
-                      width="370"
-                      height="287"
-                    />
-                  </li>
-                  <li class="portfolio-projects-list-item-name-item">
-                    <h3 class="projects-name-subtitle">
-                      Проект <span lang="en">Boxes</span>
-                    </h3>
-                  </li>
-                  <li class="portfolio-projects-list-item-name-item">
-                    <p class="projects-name-class">
-                      Приложение
-                    </p>
-                  </li>
+                <img
+                  class="portfolio-projects-list-link-item-img"
+                  src="./images/portfolio/boxes.jpg"
+                  alt="две коробки: одна белая, другая коричневая"
+                  width="370"
+                  height="294"
+                />
+                <div class="portfolio-projects-list-link-item">
+                  <h3 class="projects-name-subtitle">
+                    Проект <span lang="en">Boxes</span>
+                  </h3>
 
-                  <li class="portfolio-projects-list-item-name-item">
-                    <p class="projects-name-description">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Excepturi voluptates blanditiis odio sint, in, quis saepe
-                      beatae numquam quos nemo placeat perspiciatis esse
-                      nostrum, possimus sequi vel impedit aut molestiae?.
-                    </p>
-                  </li>
-                </ul>
+                  <p class="projects-name-class">
+                    Приложение
+                  </p>
+                </div>
+                <p class="projects-name-description">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Excepturi voluptates blanditiis odio sint, in, quis saepe
+                  beatae numquam quos nemo placeat perspiciatis esse nostrum,
+                  possimus sequi vel impedit aut molestiae?.
+                </p>
               </a>
             </li>
 
             <li class="portfolio-projects-list-item">
               <a
-                class="portfolio-projects-list link"
+                class="portfolio-projects-list-link link"
                 href=""
                 aria-label="Ссылка на проект инспирэйшн хэз ноу бодерс"
               >
-                <ul class="portfolio-projects-list-item-name list">
-                  <li class="projects-name-img">
-                    <img
-                      src="./images/portfolio/ihnb.jpg"
-                      alt="изображение главной страницы сайта инспирэйшн хэз ноу бодерс на мониторе"
-                      width="370"
-                      height="287"
-                    />
-                  </li>
-                  <li class="portfolio-projects-list-item-name-item">
-                    <h3 class="projects-name-subtitle">
-                      <span lang="en">Inspiration has no Borders</span>
-                    </h3>
-                  </li>
-                  <li class="portfolio-projects-list-item-name-item">
-                    <p class="projects-name-class">
-                      Веб-сайт
-                    </p>
-                  </li>
-                  <li class="portfolio-projects-list-item-name-item">
-                    <p class="projects-name-description">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Quidem rerum quod blanditiis aliquam, sapiente minima
-                      asperiores deleniti voluptatibus doloribus nam voluptas
-                      quis necessitatibus ullam eligendi illo totam aliquid.
-                      Iusto, cum..
-                    </p>
-                  </li>
-                </ul>
+                <img
+                  class="portfolio-projects-list-link-item-img"
+                  src="./images/portfolio/ihnb.jpg"
+                  alt="изображение главной страницы сайта инспирэйшн хэз ноу бодерс на мониторе"
+                  width="370"
+                  height="294"
+                />
+                <div class="portfolio-projects-list-link-item">
+                  <h3 class="projects-name-subtitle">
+                    <span lang="en">Inspiration has no Borders</span>
+                  </h3>
+
+                  <p class="projects-name-class">
+                    Веб-сайт
+                  </p>
+                </div>
+                <p class="projects-name-description">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Quidem rerum quod blanditiis aliquam, sapiente minima
+                  asperiores deleniti voluptatibus doloribus nam voluptas quis
+                  necessitatibus ullam eligendi illo totam aliquid. Iusto, cum..
+                </p>
               </a>
             </li>
 
             <li class="portfolio-projects-list-item">
               <a
-                class="portfolio-projects-list link"
+                class="portfolio-projects-list-link link"
                 href=""
                 aria-label="Ссылка на проект издания лимитид эдишн"
               >
-                <ul class="portfolio-projects-list-item-name list">
-                  <li class="projects-name-img">
-                    <img
-                      src="./images/portfolio/limited-edition.jpg"
-                      alt="фотография разворота журнала лимитид эдишн"
-                      width="370"
-                      height="287"
-                    />
-                  </li>
-                  <li class="portfolio-projects-list-item-name-item">
-                    <h3 class="projects-name-subtitle">
-                      Издание <span lang="en">Limited Edition</span>
-                    </h3>
-                  </li>
-                  <li class="portfolio-projects-list-item-name-item">
-                    <p class="projects-name-class">
-                      Дизайн
-                    </p>
-                  </li>
+                <img
+                  class="portfolio-projects-list-link-item-img"
+                  src="./images/portfolio/limited-edition.jpg"
+                  alt="фотография разворота журнала лимитид эдишн"
+                  width="370"
+                  height="294"
+                />
+                <div class="portfolio-projects-list-link-item">
+                  <h3 class="projects-name-subtitle">
+                    Издание <span lang="en">Limited Edition</span>
+                  </h3>
 
-                  <li class="portfolio-projects-list-item-name-item">
-                    <p class="projects-name-description">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Maxime aut ducimus, illum deserunt ut tenetur eligendi
-                      ullam voluptates corporis ratione ad eum earum atque a
-                      consequuntur doloribus voluptatem aspernatur ea!.
-                    </p>
-                  </li>
-                </ul>
+                  <p class="projects-name-class">
+                    Дизайн
+                  </p>
+                </div>
+                <p class="projects-name-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Maxime aut ducimus, illum deserunt ut tenetur eligendi ullam
+                  voluptates corporis ratione ad eum earum atque a consequuntur
+                  doloribus voluptatem aspernatur ea!.
+                </p>
               </a>
             </li>
 
             <li class="portfolio-projects-list-item">
               <a
-                class="portfolio-projects-list link"
+                class="portfolio-projects-list-link link"
                 href=""
                 aria-label="Ссылка на проект эл-эй-би"
               >
-                <ul class="portfolio-projects-list-item-name list">
-                  <li class="projects-name-img">
-                    <img
-                      src="./images/portfolio/lab.jpg"
-                      alt="логотип проекта эл-эй-би"
-                      width="370"
-                      height="287"
-                    />
-                  </li>
-                  <li class="portfolio-projects-list-item-name-item">
-                    <h3 class="projects-name-subtitle">
-                      Проект <span lang="en">LAB</span>
-                    </h3>
-                  </li>
-                  <li class="portfolio-projects-list-item-name-item">
-                    <p class="projects-name-class">
-                      Маркетинг
-                    </p>
-                  </li>
+                <img
+                  class="portfolio-projects-list-link-item-img"
+                  src="./images/portfolio/lab.jpg"
+                  alt="логотип проекта эл-эй-би"
+                  width="370"
+                  height="294"
+                />
+                <div class="portfolio-projects-list-link-item">
+                  <h3 class="projects-name-subtitle">
+                    Проект <span lang="en">LAB</span>
+                  </h3>
 
-                  <li class="portfolio-projects-list-item-name-item">
-                    <p class="projects-name-description">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Dolorum velit totam odio! Quos quidem, repellendus unde
-                      fuga facilis illum officiis quaerat aut neque, autem quas
-                      voluptatum illo obcaecati voluptas placeat..
-                    </p>
-                  </li>
-                </ul>
+                  <p class="projects-name-class">
+                    Маркетинг
+                  </p>
+                </div>
+                <p class="projects-name-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolorum velit totam odio! Quos quidem, repellendus unde fuga
+                  facilis illum officiis quaerat aut neque, autem quas
+                  voluptatum illo obcaecati voluptas placeat..
+                </p>
               </a>
             </li>
 
             <li class="portfolio-projects-list-item">
               <a
-                class="portfolio-projects-list link"
+                class="portfolio-projects-list-link link"
                 href=""
                 aria-label="Ссылка на приложение гроуин бизнес"
               >
-                <ul class="portfolio-projects-list-item-name list">
-                  <li class="projects-name-img">
-                    <img
-                      src="./images/portfolio/growing-business.jpg"
-                      alt="лэптоп с главной страницей приложения гроуин бизнес на экране"
-                      width="370"
-                      height="287"
-                    />
-                  </li>
-                  <li class="portfolio-projects-list-item-name-item">
-                    <h3 class="projects-name-subtitle">
-                      <span lang="en">Growing Business</span>
-                    </h3>
-                  </li>
-                  <li class="portfolio-projects-list-item-name-item">
-                    <p class="projects-name-class">
-                      Приложение
-                    </p>
-                  </li>
+                <img
+                  class="portfolio-projects-list-link-item-img"
+                  src="./images/portfolio/growing-business.jpg"
+                  alt="лэптоп с главной страницей приложения гроуин бизнес на экране"
+                  width="370"
+                  height="294"
+                />
+                <div class="portfolio-projects-list-link-item">
+                  <h3 class="projects-name-subtitle">
+                    <span lang="en">Growing Business</span>
+                  </h3>
 
-                  <li class="portfolio-projects-list-item-name-item">
-                    <p class="projects-name-description">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Blanditiis assumenda fugit alias corporis quo, eligendi
-                      aut a! Cum, quae voluptates, reprehenderit enim delectus,
-                      nobis voluptatem voluptatum optio sapiente dicta facilis..
-                    </p>
-                  </li>
-                </ul>
+                  <p class="projects-name-class">
+                    Приложение
+                  </p>
+                </div>
+                <p class="projects-name-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Blanditiis assumenda fugit alias corporis quo, eligendi aut a!
+                  Cum, quae voluptates, reprehenderit enim delectus, nobis
+                  voluptatem voluptatum optio sapiente dicta facilis..
+                </p>
               </a>
             </li>
           </ul>
